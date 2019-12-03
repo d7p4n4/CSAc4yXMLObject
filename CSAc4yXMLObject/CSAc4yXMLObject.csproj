@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CSNeedToSerializeAttributeLib" Version="1.0.0" />
+    <PackageReference Include="CSPersistentAttributeLib" Version="1.0.0" />
+    <PackageReference Include="CSSerializerLib" Version="1.0.3" />
+  </ItemGroup>
+
 </Project>

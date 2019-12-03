@@ -6,7 +6,9 @@ namespace CSAc4yXMLObject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CSSerializerLib.Serialize _serialize = new CSSerializerLib.Serialize();
+
+            _serialize.SerializeMethod("d:\\Server\\Visual_studio\\output_Xmls\\", typeof(Program));
         }
     }
 }
